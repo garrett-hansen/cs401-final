@@ -1,3 +1,73 @@
-h1 {
-    color:blue;
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.blog-title {
+    text-align: center;
+}
+
+.blog-entries-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-entries {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-entry {
+    min-height: 400px;
+    width: 50%;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 4px 12px #000;
+    background-color: #1F1A24;
+}
+
+.blog-entry-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.blog-entry-actions {
+    align-self: center;
+}
+
+.blog-entry-action-btn {
+    border: 0;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog-entry-action-btn:hover {
+    opacity: 0.6;
+}
+
+.add-btn {
+    background-color: green;
+}
+
+.edit-btn {
+    background-color: green;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.blog-entry-content {
+    padding: 1rem;
+    line-height: 2rem;
 }
