@@ -15,8 +15,13 @@ so the site won't work unless you serve the page on localhost:3000. Sorry.
 ## Bugs
 
  - Localhost port is hard-coded for page redirects. Not good.
- - 
+ - Server-side input validation isn't complete. Code injection is possible through blog entries.
+ - Sometimes the jquery file just doesn't load in time for the other files, causing issues with site functionality.
 
 ## Features
 
-Review all the features of your app here.
+ - Create, edit/update, delete, and view all the blogs!
+ - Create and edit blog functionality is on separate pages, but both conveniently redirect back to the home page
+ upon submission, or upon clicking the return button located on both!
+ - Deleting a blog live-updates the page and removes the blog without requiring any sort of refresh.
+ - Updating a blog moves it down to the bottom of the page, providing a convenient chronological order to the blog posts.
