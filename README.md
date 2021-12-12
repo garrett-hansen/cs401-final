@@ -1,15 +1,21 @@
 # Final website for CS401
 
-Name: YOUR NAME HERE
-email: YOUR EMAIL HERE
+Name: Garrett Hansen
+
+email: garretthansen@u.boisestate.edu
 
 ## How to run this website
 
-Detail how to run your code here!
+This code requires php to run.
+As I'm writing this I realized that the port for localhost is hard-coded,
+so the site won't work unless you serve the page on localhost:3000. Sorry.
+
+>$ php -S localhost:3000
 
 ## Bugs
 
-Detail any known bugs here
+ - Localhost port is hard-coded for page redirects. Not good.
+ - 
 
 ## Features
 
