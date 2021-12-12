@@ -9,6 +9,9 @@
 
     <body>
         <h1 class="blog-title">Garrett's Blog Site</h1>
+        <div class="blog-entries-actions">
+            <button class="blog-entry-action-btn add-btn" onclick="returnHome()">Return Home</button>
+        </div>
         <div id="postEditor">
             <div class="form-input">
                 <label for="title">Edit Post Title:</label>
@@ -20,6 +23,7 @@
             </div>
             <div class="form-input">
                 <button class="blog-entry-action-btn edit-btn" onclick="editPost()">Edit Post</button>
+            </div>
         </div>
     </body>
     <script src="js/jquery-3.6.0.min.js"></script>

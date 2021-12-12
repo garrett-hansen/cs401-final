@@ -1,0 +1,18 @@
+label {
+    display: block;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-input {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 30vw;
+    padding: 0.5rem;
+}

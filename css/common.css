@@ -8,6 +8,12 @@ body {
     text-align: center;
 }
 
+.blog-entries-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .blog-entry-action-btn {
     border: 0;
     color: white;

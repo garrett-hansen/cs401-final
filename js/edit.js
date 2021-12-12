@@ -36,7 +36,11 @@ function editPost() {
             content: $("#content").val()
         },
         success: function(obj) {
-            window.location.href = "http://localhost:3000/index.php";
+            returnHome()
         }
     });
+}
+
+function returnHome() {
+    window.location.href = "http://localhost:3000/index.php";
 }

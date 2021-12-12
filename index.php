@@ -10,7 +10,7 @@
     <body>
         <h1 class="blog-title">Garrett's Blog Site</h1>
         <div class="blog-entries-actions">
-            <button class="blog-entry-action-btn add-btn">Add Post</button>
+            <button class="blog-entry-action-btn add-btn" onclick="redirectToAddPost()">Add Post</button>
         </div>
         <div id="blog-entries" class="blog-entries"></div>
     </body>

@@ -18,8 +18,8 @@
                         <div class='blog-entry-header'>
                             <h1 class='blog-entry-title'>$title</h1>
                             <span class='blog-entry-actions'>
-                                <button class='blog-entry-action-btn edit-btn' onclick='redirectToEdit($entry_id)'>Edit</button>
-                                <button class='blog-entry-action-btn delete-btn' onclick='deletePost($entry_id)'>Delete</button>
+                                <button class='blog-entry-action-btn edit-btn' onclick='redirectToEdit($id)'>Edit</button>
+                                <button class='blog-entry-action-btn delete-btn' onclick='deletePost($id)'>Delete</button>
                             </span>
                         </div>
                         <hr>

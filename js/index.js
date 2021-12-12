@@ -35,6 +35,6 @@ function redirectToEdit(id) {
     window.location.href = "http://localhost:3000/edit.php?id=" + id;
 }
 
-function redirectToAdd() {
+function redirectToAddPost() {
     window.location.href = "http://localhost:3000/create.php";
 }
